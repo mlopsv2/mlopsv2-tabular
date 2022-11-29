@@ -23,7 +23,7 @@ resources:
   repositories:
     - repository: mlops-templates  # Template Repo
       name: mlopsv2/mlops-templates # need to change org name from "Azure" to your own org
-      endpoint: github-connection # need to set up and hardcode
+      endpoint: mlopsv2 # need to set up and hardcode
       type: github
       ref: main
 

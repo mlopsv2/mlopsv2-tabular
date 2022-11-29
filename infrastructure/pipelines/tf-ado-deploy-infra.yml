@@ -10,7 +10,9 @@ variables:
     - template: ../../config-infra-dev.yml
 
 trigger:
-- none
+  paths:
+  - config-infra-dev.yml
+  - config-infra-prod.yml
 
 pool:
   vmImage: ubuntu-20.04

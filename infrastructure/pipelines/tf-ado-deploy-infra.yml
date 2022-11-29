@@ -11,8 +11,8 @@ variables:
 
 trigger:
   paths:
-  - config-infra-dev.yml
-  - config-infra-prod.yml
+    - config-infra-dev.yml
+    - config-infra-prod.yml
 
 pool:
   vmImage: ubuntu-20.04

@@ -4,6 +4,7 @@
 Trains ML model using training dataset. Saves trained model.
 """
 
+# imports
 import argparse
 
 from pathlib import Path

@@ -13,7 +13,9 @@ variables:
 
 
 trigger:
-- none
+  paths:
+    include:
+      - data-science
 
 pool:
   vmImage: ubuntu-20.04

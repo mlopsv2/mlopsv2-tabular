@@ -16,7 +16,9 @@ variables:
   value: batch
 
 trigger:
-- none
+  paths:
+    include:
+      - mlops/azureml/deploy/batch
 
 pool:
   vmImage: ubuntu-20.04
@@ -25,7 +27,7 @@ pool:
 resources:
   repositories:
     - repository: mlops-templates  # Template Repo
-      name: Azure/mlops-templates # need to change org name from "Azure" to your own org
+      name: mlopsv2/mlops-templates # need to change org name from "Azure" to your own org
       endpoint: github-connection # need to set up and hardcode
       type: github
       ref: main

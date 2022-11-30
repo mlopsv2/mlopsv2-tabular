@@ -19,7 +19,7 @@ variables:
 trigger:
   paths:
     include:
-      - mlops/azureml/deploy/batch
+      - mlops/azureml/deploy/online
 
 pool:
   vmImage: ubuntu-20.04
